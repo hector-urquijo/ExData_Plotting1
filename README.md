@@ -153,7 +153,7 @@ dev.off()
 #Crear plot 4
 par(mfrow = c(2,2), mar = c(4,4,2,1), oma = c(0,0,2,0))
 with(rep, {
-  plot(Global_active_power~DateTime , type = "l", 
+  plot(Global_active_power~ DateTime , type = "l", 
        ylab="Global Active Power", xlab="DateTime")
   plot(Voltage ~ DateTime, type = "l",
        ylab="Voltaje", xlab="DateTime")
